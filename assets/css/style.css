@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+/*header section*/
+header#home-header {
+    background: #061f16 url(../images/copy-pexels-nathan-j-hilton-7402151.jpg) no-repeat;
+    background-size: cover;
+    padding: 1px;
+    height: 23vh;
+}
+.logo-container {
+    display: inline-block;
+}
+.logo-container img {
+    width: 155px;
+    margin-top: -107px;
+}
+.nav-container {
+    text-align: right;
+    font-size: larger;
+    margin-top: -91px;
+}
+nav.header-navigation a {
+    font-size: 24px;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+h1 {
+    color: white;
+    text-align: justify;
+    padding-top: 45px;
+    padding-left: 176px;
+    font-size: 20px;
+}
+header#about-header h1 {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 176px;
+}
+
+
+
+/*banner section */
+.banner-container {
+    margin-bottom: -5px;
+}
+.banner {
+    background-image: url(../images/Banner.png) no repeat;
+    margin: 0;
+}
+img {
+    background-size: cover;
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    text-align: center;
+    margin-left: 21%;
+    margin-bottom: 12%;
+    bottom: 0;
+    color: white;
+    font-size: 55px;
+}
+
+/*Footer*/
+.text-container {
+    text-align: center;
+    color: white;
+    margin-top: -170px;
+}
+.footer-section h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.footer-section p {
+    padding-top: 22px;
+    font-size: 17px;
+}

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/*Header*/
+header#contacts-header {
+    background: #061f16 url(../images/copy-pexels-nathan-j-hilton-7402151.jpg) no-repeat;
+    background-size: cover;
+    padding: 1px;
+    height: 23vh;
+}
+.logo-container {
+    display: inline-block;
+}
+.logo-container img {
+    width: 155px;
+    margin-top: -105px;
+    margin-left: 35px;
+}
+.nav-container {
+    text-align: right;
+    font-size: larger;
+    margin-top: -91px;
+    margin-right: -234px;
+}
+nav.header-navigation a {
+    font-size: 24px;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+header#contacts-header h1 {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding-top: 80px;
+    padding-left: 217px;
+}
+
+/*Bootstrap*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /*My own changes*/
+  .col-md-7.col-lg-8 {
+    margin-left: 17%;
+}
+.button {
+    padding-top: 34px;
+    float: right;
+}
+input[type="button"] {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: white;
+    background: #0a900a;
+    border: none;
+    border-radius: 23px;
+}
+input[type="button"]:hover {
+    background: #023c31;
+}
+h2 {
+    font-size: 52px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.socials-container {
+    padding-left: 67px;
+    margin-right: -279px;
+}
+section.socials-section .row {
+    display: flex;
+}
+section.socials-section .row-2 {
+    display: flex;
+}
+span {
+    display: block;
+    padding-left: 63px;
+    font-size: 65px;
+    color: green;
+    text-align: center;
+    width: 67%;
+    padding-top: 42px;
+}
+section#socials .col {
+    width: 27%;
+    display: inline-block;
+    text-align: left;
+    margin-left: -218px;
+}
+section.socials-section p {
+    width: 78%;
+    font-size: 17px;
+    text-align: center;
+}

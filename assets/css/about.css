@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*header section*/
+header#about-header {
+    background: #061f16 url(../images/copy-pexels-nathan-j-hilton-7402151.jpg) no-repeat;
+    background-size: cover;
+    padding: 1px;
+    height: 20vh;
+}
+.header-container {
+    padding-left: 20px;
+    margin-top: -12px;
+}
+.logo-container {
+    display: inline-block;
+}
+.logo-container img {
+    width: 155px;
+    margin-top: -107px;
+}
+.nav-container {
+    text-align: right;
+    font-size: larger;
+    margin-top: -87px;
+}
+nav.header-navigation a {
+    font-size: 24px;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+header#about-header h1 {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 176px;
+}
+
+
+/*Bootstrap*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /*my own changes in bootstrap*/
+  span.fs-4 {
+    padding-top: 1px;
+    padding-left: 9px;
+}
+.pb-3 {
+    padding-bottom: 1rem!important;
+    padding-top: 13px;
+}
+h1.display-5.fw-bold {
+    text-align: left;
+    padding-left: 152px;
+    margin-top: 71px;
+}
+p.col-md-8.fs-4 {
+    padding-left: 32px;
+    padding-top: 26px;
+}
+.container-fluid.py-5 {
+    color: white;
+    text-align: justify;
+    margin-top: -44px;
+}
+    @media (min-width: 1200px) {
+    .fs-4 {
+    font-size: 1.5rem!important;
+    padding-left: 65px;
+    padding-top: 44px;
+    }
+}
+.about-paragraph {
+    padding-top: 13px;
+    line-height: 26px;
+    font-size: 17px;
+}
+.p-5.mb-4.bg-light.rounded-3 {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.about-row {
+    display: inline-flex;
+}
+.col {
+    padding-left: 77px;
+}
+
+/*Overlay*/
+.important-people-container {
+  position: relative;
+  padding-top: 300px;
+  border-radius: 10px;
+}
+img.image {
+    border-radius: 10px;
+    height: auto;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.important-people-container:hover .overlay {
+    opacity: 1;
+  }
+  .top-centered {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 65px;
+    margin-top: -539px;
+}
+.top-centered-2{
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 65px;
+  margin-top: -638px;
+}
+.top-centered-3{
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 65px;
+  margin-top: -626px;
+}
+.top-centered-4 {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 65px;
+  margin-top: -739px;
+  margin-bottom: 29%;
+}
+.important-people-container:hover .image {
+    opacity: 0.3;
+  }
+  
+.important-people-container:hover .-top-centered {
+    opacity: 1;
+  }
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .top-centered {
+    opacity: 1;
+  }
+  .container:hover .top-centered-2{
+    opacity: 1;
+  }
+  .container:hover .top-centered-3{
+    opacity: 1;
+  }
+  .container:hover .top-centered-4{
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 52px;
+    padding: 16px 32px;
+  }
+.about-family {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 95px;
+}
+.about-friends {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 95px;
+}
+.about-dogs {
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 51px;
+  padding-left: 179px;
+}
+.row.align-items-md-stretch {
+  margin-bottom: -230px;
+}
+
